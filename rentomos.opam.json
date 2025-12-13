@@ -9,7 +9,7 @@
   "license": "ISC",
   "maintainer": "Mark Raynsford <code@io7m.com>",
   "synopsis": "Entomos specification",
-  "x-io7m-work-id": "2d5fbcd6-dd56-4a88-8c11-a4e58c45936a",
+  "x-io7m-work-id": "de36b494-2c7a-45c0-9ad7-c00ede2e530f",
   "x-io7m-documentation": "html",
   "depends": [
     {
