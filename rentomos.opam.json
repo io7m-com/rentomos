@@ -1,0 +1,49 @@
+{
+  "opam-version": "2.0",
+  "name": "rentomos",
+  "version": "1.0.0",
+  "authors": "Mark Raynsford <code@io7m.com>",
+  "bug-reports": "https://github.com/io7m-com/rentomos/issues",
+  "dev-repo": "https://github.com/io7m-com/rentomos/issues",
+  "homepage": "https://www.io7m.com/software/rentomos",
+  "license": "ISC",
+  "maintainer": "Mark Raynsford <code@io7m.com>",
+  "synopsis": "Entomos specification",
+  "x-io7m-work-id": "2d5fbcd6-dd56-4a88-8c11-a4e58c45936a",
+  "x-io7m-documentation": "html",
+  "depends": [
+    {
+      "name": "rocq-prover",
+      "version": "9.0.0"
+    },
+    {
+      "name": "rocq-devtools",
+      "version": "9.1.0"
+    }
+  ],
+  "build": [
+    ["./rocq-make.sh"]
+  ],
+  "install": [
+    [
+      "mkdir",
+      "-p",
+      "%{lib}%/coq/user-contrib/com/io7m/entomos"
+    ],
+    [
+      "cp",
+      "src/main/coq/Alignment.v",
+      "%{lib}%/coq/user-contrib/com/io7m/entomos/Alignment.v"
+    ],
+    [
+      "cp",
+      "src/main/coq/Binary.v",
+      "%{lib}%/coq/user-contrib/com/io7m/entomos/Binary.v"
+    ],
+    [
+      "cp",
+      "src/main/coq/Divisible.v",
+      "%{lib}%/coq/user-contrib/com/io7m/entomos/Divisible.v"
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+.idea
+_opam
+*.glob
+*.vo
+*.vok
+*.vos
+*.aux
+html
+.lia.cache
