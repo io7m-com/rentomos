@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "authors": "Mark Raynsford <code@io7m.com>",
   "bug-reports": "https://github.com/io7m-com/rentomos/issues",
-  "dev-repo": "https://github.com/io7m-com/rentomos/issues",
+  "dev-repo": "https://github.com/io7m-com/rentomos",
   "homepage": "https://www.io7m.com/software/rentomos",
   "license": "ISC",
   "maintainer": "Mark Raynsford <code@io7m.com>",
