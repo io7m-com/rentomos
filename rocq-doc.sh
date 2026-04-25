@@ -1,4 +1,4 @@
 #!/bin/sh -e
 
 mkdir -p html
-coqdoc -Q src/main/coq com.io7m.entomos --toc --utf8 -d html src/main/coq/*.v
+coqdoc -Q src/main/rocq com.io7m.entomos --toc --utf8 -d html src/main/rocq/*.v

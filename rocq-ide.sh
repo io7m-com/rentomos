@@ -1,3 +1,3 @@
 #!/bin/sh -e
 
-rocqide -Q src/main/coq com.io7m.entomos "$@"
+rocqide -Q src/main/rocq com.io7m.entomos "$@"
