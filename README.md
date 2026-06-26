@@ -1,12 +1,30 @@
-ERROR com.io7m.ghrepostools.Main : The specified command does not exist.
-  Command    : README
-  Error Code : command-nonexistent
+rentomos
+===
 
-DEBUG com.io7m.ghrepostools.Main : Exception: 
-com.io7m.quarrel.core.QException: The specified command does not exist.
-	at com.io7m.quarrel.core.QApplication.parseExpanded(QApplication.java:244)
-	at com.io7m.quarrel.core.QApplication.parse(QApplication.java:152)
-	at com.io7m.quarrel.core.QApplicationType.run(QApplicationType.java:94)
-	at com.io7m.ghrepostools.Main.run(Main.java:126)
-	at com.io7m.ghrepostools.Main.mainExitless(Main.java:110)
-	at com.io7m.ghrepostools.Main.main(Main.java:95)
+![rentomos](./src/site/resources/rentomos.jpg?raw=true)
+
+## Repository Relocation
+
+Development of this project has moved to an
+[open-source but not open-contribution](https://sqlite.org/copyright.html#notopencontrib)
+model.
+
+Source code and commits will remain publicly available perpetually, but issues
+and/or pull requests will be rejected and/or ignored. Additionally, this project
+will now only be available via a read-only mirror at:
+
+  https://codeberg.org/io7m-com/rentomos
+
+
+## rentomos
+
+The `rentomos` package provides a formal specification for the [entomos](https://github.com/io7m-com/entomos) package.
+
+## Build
+
+```
+$ opam install . --deps-only
+$ ./rocq-make.sh
+```
+
+
